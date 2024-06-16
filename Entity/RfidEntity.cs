@@ -1,17 +1,16 @@
 ﻿using Microsoft.Azure.Cosmos.Table;
 
-namespace CleverInterviewCode.Entity
+namespace CleverInterviewCode.Entity;
+
+public class RfidEntity : TableEntity
 {
-	public class RfidEntity : TableEntity
+	public RfidEntity() { }
+
+	public RfidEntity(string partitionKey, string rowKey)
 	{
-		public RfidEntity() { }
-
-		public RfidEntity(string partitionKey, string rowKey)
-		{
-			PartitionKey = partitionKey;
-			RowKey = rowKey;
-		}
-
-		public string Rfid { get; set; }
+		PartitionKey = partitionKey;
+		RowKey = rowKey;
 	}
+
+	public string Rfid { get; set; }
 }
