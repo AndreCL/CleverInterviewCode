@@ -11,17 +11,19 @@ using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Attributes;
 using System.Net;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Table;
+using CleverInterviewCode.StorageService;
+using Microsoft.AspNetCore.Components;
 
 public static class CreateRfid
 {
-
-	[FunctionName("CreateRfid")]
+    [FunctionName("CreateRfid")]
 	[OpenApiOperation(operationId: "createRFID", tags: new[] { "RFID" })]
 	[OpenApiRequestBody("application/json", typeof(string), Description = "JSON request body containing the RFID tag")]
 	[OpenApiResponseWithBody(statusCode: HttpStatusCode.OK, contentType: "application/json", bodyType: typeof(string), Description = "The OK response")]
 	public static async Task<IActionResult> Run(
 		[HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req,
-		ILogger log)
+		ILogger log
+        )
 	{
 		log.LogInformation("Processing a request to create a new RFID.");
 

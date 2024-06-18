@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleverInterviewCode", "CleverInterviewCode.csproj", "{4FD01DA8-431A-4BBD-B7EC-CF6720688954}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleverInterviewCode", "CleverInterviewCode\CleverInterviewCode.csproj", "{E26BA11A-C42E-4BDA-A582-AEC6523177C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleverInterviewCode.Tests", "..\ForCleverInterview\CleverInterviewCode.Tests\CleverInterviewCode.Tests.csproj", "{5B1C44DD-8D22-4345-879E-76503770F062}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleverInterviewCode.Test", "CleverInterviewCode.Test\CleverInterviewCode.Test.csproj", "{23B4F35A-8270-4B68-96F7-FB178E4D84F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4FD01DA8-431A-4BBD-B7EC-CF6720688954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FD01DA8-431A-4BBD-B7EC-CF6720688954}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FD01DA8-431A-4BBD-B7EC-CF6720688954}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FD01DA8-431A-4BBD-B7EC-CF6720688954}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5B1C44DD-8D22-4345-879E-76503770F062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5B1C44DD-8D22-4345-879E-76503770F062}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5B1C44DD-8D22-4345-879E-76503770F062}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5B1C44DD-8D22-4345-879E-76503770F062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26BA11A-C42E-4BDA-A582-AEC6523177C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26BA11A-C42E-4BDA-A582-AEC6523177C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26BA11A-C42E-4BDA-A582-AEC6523177C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26BA11A-C42E-4BDA-A582-AEC6523177C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B4F35A-8270-4B68-96F7-FB178E4D84F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B4F35A-8270-4B68-96F7-FB178E4D84F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B4F35A-8270-4B68-96F7-FB178E4D84F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B4F35A-8270-4B68-96F7-FB178E4D84F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
